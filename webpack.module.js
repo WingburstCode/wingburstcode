@@ -12,7 +12,6 @@ module.exports = {
     loader: 'style!css'
   }, {
     test: /\.less$/,
-    exclude: /node_modules/,
     loader: 'style!css?localIdentName=[path][name]---[hash:base64:5]!less'
   }, {
     test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,

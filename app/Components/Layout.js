@@ -12,11 +12,9 @@ export default class Layout extends Component {
   render() {
     return (
       <div className={className}>
-        <div className="container">
-          <Header />
-          {this.props.children}
-          <Footer />
-        </div>
+        <Header />
+        {this.props.children}
+        <Footer />
       </div>
     );
   }

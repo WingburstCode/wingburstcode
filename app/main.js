@@ -2,9 +2,10 @@ import React from 'react';
 import { render } from 'react-dom';
 import { Router, Route } from 'react-router';
 import { createHashHistory } from 'history';
+import 'bootstrap/less/bootstrap.less';
 
 import Layout from './Components/Layout';
-import HelloWorld from './Components/HelloWorld';
+import Home from './Components/Home';
 
 // setup routing
 const history = createHashHistory({
@@ -16,7 +17,7 @@ render((
     <Route component={Layout}>
       <Route
         path="/"
-        component={HelloWorld}
+        component={Home}
       />
     </Route>
   </Router>
