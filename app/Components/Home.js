@@ -12,11 +12,21 @@ export default class extends Component {
   render() {
     return (
       <div className={classnames(className)}>
-        <Carousel />
-        <ValueProposition />
-        <Triptych />
-        <ActionImage />
-        <Triptych />
+        <div className="section">
+            <Carousel />
+        </div>
+        <div className="section">
+            <ValueProposition />
+        </div>
+        <div className="section">
+            <Triptych />
+        </div>
+        <div className="section">
+            <ActionImage />
+        </div>
+        <div className="section">
+            <Triptych />
+        </div>
       </div>
     );
   }

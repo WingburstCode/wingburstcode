@@ -14,11 +14,11 @@ export default class Header extends Component {
       <div className={classnames(className)}>
         <PageHeader>
           <div className="container">
-            <Logo /> <small>Subtext for header</small>
+            <Logo />
           </div>
         </PageHeader>
-        <div className="container">
-          <Nav bsStyle="pills" activeKey={1} onSelect={handleSelect}>
+        <div className="container text-center">
+          <Nav activeKey={1} onSelect={handleSelect}>
             <NavItem eventKey={1} href="/home">Donate</NavItem>
             <NavItem eventKey={2} href="/home">Our Work</NavItem>
             <NavItem eventKey={3} href="/home">Take Action</NavItem>
