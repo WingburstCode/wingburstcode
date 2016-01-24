@@ -5,8 +5,7 @@ import { Nav, NavItem, PageHeader } from 'react-bootstrap';
 import { className } from './Header.less';
 import Logo from './Logo';
 
-function handleSelect(selectedKey) {
-  console.log('selected ' + selectedKey);
+function handleSelect() {
 }
 
 export default class Header extends Component {
