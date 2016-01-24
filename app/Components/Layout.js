@@ -5,7 +5,7 @@ import Footer from './Footer';
 
 import { className } from './Layout.less';
 
-class Layout extends Component {
+export default class Layout extends Component {
   static propTypes = {
     children: PropTypes.node.isRequired
   };
@@ -21,5 +21,3 @@ class Layout extends Component {
     );
   }
 }
-
-export default Layout;
