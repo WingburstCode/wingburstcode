@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import classnames from 'classnames';
-import { Nav, NavItem } from 'react-bootstrap';
+import { Nav, NavItem, PageHeader } from 'react-bootstrap';
 
 import { className } from './Header.less';
 import Logo from './Logo';
@@ -13,9 +13,11 @@ export default class Header extends Component {
   render() {
     return (
       <div className={classnames(className)}>
-        <div className="container">
-          <Logo />
-        </div>
+        <PageHeader>
+          <div className="container">
+            <Logo /> <small>Subtext for header</small>
+          </div>
+        </PageHeader>
         <div className="container">
           <Nav bsStyle="pills" activeKey={1} onSelect={handleSelect}>
             <NavItem eventKey={1} href="/home">Donate</NavItem>

@@ -6,9 +6,7 @@ import { className } from './ValueProposition.less';
 export default class extends Component {
   render() {
     return (
-        <div className={classnames(className)}>
-          
-        </div>
+        <div className={classnames(className)}></div>
     );
   }
 }
