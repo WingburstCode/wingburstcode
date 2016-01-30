@@ -4,7 +4,6 @@ import classnames from 'classnames';
 import Carousel from './Carousel';
 import ValueProposition from './ValueProposition';
 import Triptych from './Triptych';
-import ActionImage from './ActionImage';
 
 import { className } from './Home.less';
 

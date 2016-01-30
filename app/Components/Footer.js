@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import classnames from 'classnames';
-import { Button, ButtonGroup } from 'react-bootstrap';
 
 import { className } from './Footer.less';
 

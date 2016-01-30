@@ -6,7 +6,7 @@ import jQuery from 'jquery';
 import { className } from './Header.less';
 import Logo from './Logo';
 
-jQuery(window).on("scroll touchmove", function () {
+jQuery(window).on('scroll touchmove', function toggleTiny() {
   jQuery('.' + className).toggleClass('tiny', jQuery(document).scrollTop() > 0);
 });
 
