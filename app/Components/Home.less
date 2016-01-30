@@ -1,19 +1,29 @@
+@import "variables.less";
+
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
+
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: Baskerville, sans-serif;
+    color: @metal;
+    font-size: 18px;
+    padding-top: 4em;
 }
 
 
 :local(.className) {
+    padding-bottom: 8em;
     img {
-        filter: grayscale(100%) sepia(100%) saturate(2.5);
-        -webkit-filter: grayscale(100%) sepia(100%) saturate(2.5);
+        filter: sepia(80%) saturate(2.5);
+        -webkit-filter: sepia(80%) saturate(2.5);
     }
     img.bg {
-        filter: grayscale(100%) sepia(100%) saturate(5.5) opacity(0.4);
-        -webkit-filter: grayscale(100%) sepia(100%) saturate(5.5) opacity(0.4);
+        filter: sepia(80%) saturate(5.5) opacity(0.4);
+        -webkit-filter: sepia(80%) saturate(5.5) opacity(0.4);
     }
     .section {
-        margin-bottom: 3em;
+        padding-top: 4em;
+    }
+    .section > div {
+        padding-top: 4em;
     }
 }

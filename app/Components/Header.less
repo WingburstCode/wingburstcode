@@ -1,15 +1,43 @@
+@import "variables.less";
+
 :local(.className) {
+    position: fixed;
+    background: @pale;
+    z-index: 3;
+    width: 100%;
+    top: 0;
+    left:0;
+
+    .pageHeader {
+        border-bottom: 1px solid @cloud;
+    }
+
+    .navbar {
+        background-color: #fff;
+    }
+
     .nav > li {
         display: inline-block;
     }
     .nav > li a {
-        color: #585858;
+        color: @metal;
         font-size: 1.725rem;
         font-weight: 400;
         text-transform: uppercase;
-        margin: 0 20px;
+        padding: 1.5em 60px;
+        font-family: Open Sans;
+
+        transition: padding 500ms;
     }
-    .page-header {
-        margin: 0;
+    .nav > li > a:hover {
+        text-decoration: none;
+        background-color: @cloud;
+    }
+    &.tiny .nav > li a {
+        padding-top: 0.7em;
+        padding-bottom: 0.7em;
+    }
+    .links {
+        border-bottom: 1px solid @cloud;
     }
 }

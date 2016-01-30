@@ -8,7 +8,7 @@ export default class extends Component {
   render() {
     return (
       <div className={classnames(className)}>
-        <Image width="100%" src="https://placem.at/people?h=480&w=1200&_=1" className="bg"/>
+        <Image width="100%" src="https://placem.at/people?h=480&w=1200&_=1"/>
         <div className="content-overlay">
           <div className="text-center">
             <h2>250 Million Children Lack Basic Reading, Writing &amp; Math Skills.</h2>

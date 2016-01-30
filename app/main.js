@@ -19,6 +19,10 @@ render((
         path="/"
         component={Home}
       />
+      <Route
+        path="*"
+        component={Home}
+      />
     </Route>
   </Router>
 ), document.getElementById('main'));

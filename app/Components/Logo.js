@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
+import classnames from 'classnames';
 
-const src = 'https://d2gwf2att0698u.cloudfront.net/wp-content/themes/pencilsofpromise/images/pop-logo.svg';
+import { className } from './Logo.less';
 
-export default () => (
-    <img width={100} height={30} src={src}/>
-);
+export default class Logo extends Component {
+  render() {
+    var extraClass = this.props.light ? 'light' : '';
+    return (
+        <span className={classnames(className, 'logo', extraClass)}></span>
+    );
+  }
+}

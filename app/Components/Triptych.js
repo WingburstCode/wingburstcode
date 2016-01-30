@@ -13,22 +13,22 @@ export default class extends Component {
               <Col xs={6} md={4}>
                 <Image width="100%" src="https://placem.at/places?h=600&w=600&_=0" circle />
                 <div className="text-center">
-                  <h4>100% Direct Giving</h4>
-                  <p>Every dollar donated online goes directly to our programs to educate more children.</p>
+                  <h3>One-stop Shop</h3>
+                  <p>Doing everything yourself is a pain. We know development and we know excellent people who do everything else.  We can coordinate as much or as little as you want to make your web presence a breeze.</p>
                 </div>
               </Col>
               <Col xs={6} md={4}>
                 <Image width="100%" src="https://placem.at/people?h=600&w=600&_=1" circle />
                 <div className="text-center">
-                  <h4>100% Local Leadership</h4>
-                  <p>All of our Country Directors are from the country they lead.</p>
+                  <h3>Evolve with you</h3>
+                  <p>Excellent communication allows us to iterate efficiently with you as your ideas and business take shape.  You don''t need a perfect plan from the start.  We build flexibility into the product and scale as you grow.</p>
                 </div>
               </Col>
               <Col xs={6} md={4}>
                 <Image width="100%" src="https://placem.at/thing?h=600&w=600&_=2" circle />
                 <div className="text-center">
-                  <h4>100% Success Rate</h4>
-                  <p>Every school we’ve opened to date is fully operational and educating students daily.</p>
+                  <h3>Sturdy Engineering</h3>
+                  <p>We deliver modern, mobile-friendly websites with secure data protection. You can expect the same quality from us that your customers expect from you.</p>
                 </div>
               </Col>
             </Row>

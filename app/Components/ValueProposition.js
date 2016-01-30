@@ -7,9 +7,9 @@ export default class extends Component {
   render() {
     return (
         <div className={classnames(className, 'text-center')}>
-          <h2>We Are Pencils of Promise</h2>
-          <h5>We’re a global community that believes everyone deserves access to quality education. We’re reshaping the landscape of education guided by our</h5>
-          <h5><strong>100% PROMISE</strong></h5>
+          <h2>We Are Wingburst Code</h2>
+          <p>You do business, we do web. Let us make your ideas a reality.</p>
+          <p>We’ve got you covered. Whether you''re looking for a landing page or a complex web app, we can handle it.  We do development and design.</p>
         </div>
     );
   }

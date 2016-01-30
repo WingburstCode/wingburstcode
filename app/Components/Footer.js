@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import classnames from 'classnames';
-import { Button } from 'react-bootstrap';
+import { Button, ButtonGroup } from 'react-bootstrap';
 
 import { className } from './Footer.less';
 
@@ -11,8 +11,9 @@ export default class Footer extends Component {
     return (
       <div className={classnames(className, 'text-center')}>
         <div className="container">
-            <Logo />
-            <Button bsStyle="link">Link</Button><Button bsStyle="link">Link</Button><Button bsStyle="link">Link</Button>
+          <div className="col-lg-4">
+            <Logo light="true"/>
+          </div>
         </div>
       </div>
     );
