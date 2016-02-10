@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import classnames from 'classnames';
 
-import Carousel from './Carousel';
 import ValueProposition from './ValueProposition';
 import Triptych from './Triptych';
+import Team from './Team';
+import Contact from './Contact';
 
 import { className } from './Home.less';
 
@@ -15,14 +16,11 @@ export default class extends Component {
             <ValueProposition />
             <Triptych />
         </div>
-        <div className="section" id="work">
-            <Carousel />
-        </div>
         <div className="section" id="team">
-            <Triptych />
+            <Team />
         </div>
         <div className="section" id="contact">
-            <ValueProposition />
+            <Contact />
         </div>
       </div>
     );

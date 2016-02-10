@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 import classnames from 'classnames';
 
-import { className } from './ValueProposition.less';
+import { className } from './Contact.less';
 
 export default class extends Component {
   render() {
     return (
         <div className={classnames(className, 'text-center')}>
-          <h2>We Are Wingburst Code</h2>
-          <p>You do business, we do the web. Let us make your ideas a reality.</p>
+          <h2>Contact Us</h2>
+          <p>We are located in Seattle, WA, USA.</p>
+          <p>email: ulberge@gmail.com</p>
+          <p>phone: (206) 948-3348</p>
         </div>
     );
   }

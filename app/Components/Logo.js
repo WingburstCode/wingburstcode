@@ -10,7 +10,10 @@ export default class Logo extends Component {
   render() {
     const extraClass = this.props.light ? 'light' : '';
     return (
-        <span className={classnames(className, 'logo', extraClass)}></span>
+        <div className={classnames(className, 'logo', extraClass)}>
+            <span className="logoImage"></span>
+            <span className="logoText">Wingburst Code</span>
+        </div>
     );
   }
 }

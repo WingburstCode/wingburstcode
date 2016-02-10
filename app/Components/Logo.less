@@ -1,20 +1,31 @@
+@import "variables.less";
+
 :local(.className) {
-    height: 5em;
-    width: 10em;
-    background-image: url(/imgs/logotext.svg);
-    background-repeat: no-repeat;
-    background-position-y: center;
     margin: 0;
     padding: 0;
-    display: inline-block;
-
     transition: height 500ms, width 500ms;
     
-    &.light {
-        background-image: url(/imgs/logotextlight.svg);
+    .logoImage {
+        background-image: url(../../build/imgs/wingburst-logo.svg);
+        background-repeat: no-repeat;
+        background-position-y: center;
+        display: inline-block;
+        height: 3em;
+        width: 3em;
+        &.light {
+            background-image: url(/imgs/wingburst-logo.svg);
+        }
+    }
+    .logoText {
+        font-family: 'ISOCTEUR', sans-serif;
+        text-transform: uppercase;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 13px;
+        font-size: 1.2em;
+        color: @title;
     }
 }
 .tiny :local(.className) {
-    height: 3em;
-    width: 8em;
+    display: none;
 }

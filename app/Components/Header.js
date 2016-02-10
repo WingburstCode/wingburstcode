@@ -18,9 +18,9 @@ export default class Header extends Component {
             <Logo />
         </div>
         <div className="text-center links">
+          <Logo />
           <Nav>
             <NavItem href="#about">About Us</NavItem>
-            <NavItem href="#work">Our Work</NavItem>
             <NavItem href="#team">Team</NavItem>
             <NavItem href="#contact">Contact</NavItem>
           </Nav>

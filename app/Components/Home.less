@@ -2,28 +2,34 @@
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
 
+@font-face {
+    font-family: 'ISOCTEUR';
+    font-style: normal;
+    font-weight: normal;
+    src: local('ISOCTEUR'), url('../../build/assets/ISOCTEUR.woff') format('woff');
+}
+
 body {
-    font-family: Baskerville, sans-serif;
+    font-family: Open Sans, sans-serif;
     color: @metal;
-    font-size: 18px;
+    font-size: 16px;
     padding-top: 4em;
 }
 
+h1, h2, h3 {
+    font-family: 'ISOCTEUR', sans-serif;
+}
 
 :local(.className) {
     padding-bottom: 8em;
     img {
-        filter: sepia(80%) saturate(2.5);
-        -webkit-filter: sepia(80%) saturate(2.5);
-    }
-    img.bg {
-        filter: sepia(80%) saturate(5.5) opacity(0.4);
-        -webkit-filter: sepia(80%) saturate(5.5) opacity(0.4);
+        filter: sepia(60%) saturate(1.5);
+        -webkit-filter: sepia(60%) saturate(1.5);
     }
     .section {
         padding-top: 4em;
     }
     .section > div {
-        padding-top: 4em;
+        padding-top: 2em;
     }
 }
