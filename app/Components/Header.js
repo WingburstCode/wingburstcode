@@ -7,7 +7,7 @@ import { className } from './Header.less';
 import Logo from './Logo';
 
 jQuery(window).on('scroll touchmove', function toggleTiny() {
-  jQuery('.' + className).toggleClass('tiny', jQuery(document).scrollTop() > 0);
+  jQuery('.' + className).toggleClass('tiny', jQuery(document).scrollTop() > 200);
 });
 
 export default class Header extends Component {
