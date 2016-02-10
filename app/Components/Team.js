@@ -12,14 +12,14 @@ export default class extends Component {
           <Grid>
             <Row>
               <Col md={6}>
-                <Image width="100%" src="/../../imgs/erik.png" circle />
+                <Image width="100%" src={"/../../imgs/erik.png"} circle />
                 <div className="text-center">
                   <h3>Erik Ulberg</h3>
                   <p>Doing everything yourself is a pain. We know development and we know excellent people who do everything else.  We can coordinate as much or as little as you want to make your web presence a breeze.</p>
                 </div>
               </Col>
               <Col md={6}>
-                <Image width="100%" src="/../../imgs/patrick.png" circle />
+                <Image width="100%" src={"/../../imgs/patrick.png"} circle />
                 <div className="text-center">
                   <h3>Patrick Williams</h3>
                   <p>Excellent communication allows us to iterate efficiently with you as your ideas and business take shape.  You don''t need a perfect plan from the start.  We build flexibility into the product and scale as you grow.</p>
