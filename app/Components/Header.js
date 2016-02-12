@@ -7,7 +7,7 @@ import { className } from './Header.less';
 import Logo from './Logo';
 
 jQuery(window).on('scroll touchmove', function toggleTiny() {
-  jQuery('.' + className).toggleClass('tiny', jQuery(document).scrollTop() > 200);
+  jQuery('.' + className).toggleClass('tiny', jQuery(document).scrollTop() > 0);
 });
 
 export default class Header extends Component {
@@ -15,14 +15,14 @@ export default class Header extends Component {
     return (
       <div className={classnames(className)}>
         <div className="pageHeader text-center">
-            <Logo />
+            <Logo/>
         </div>
         <div className="text-center links">
-          <Logo />
-          <Nav>
-            <NavItem href="#about">About Us</NavItem>
-            <NavItem href="#team">Team</NavItem>
-            <NavItem href="#contact">Contact</NavItem>
+          <Logo className="hidden-xs"/>
+          <Nav className="container">
+            <NavItem href="#about" className="col-xs-4">About</NavItem>
+            <NavItem href="#team" className="col-xs-4">Team</NavItem>
+            <NavItem href="#contact" className="col-xs-4">Contact</NavItem>
           </Nav>
         </div>
       </div>

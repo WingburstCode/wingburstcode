@@ -18,13 +18,14 @@
 
     .nav > li {
         display: inline-block;
+        padding: 0;
     }
     .nav > li a {
         color: @metal;
         font-size: 1.725rem;
         font-weight: 400;
         text-transform: uppercase;
-        padding: 1.5em 60px;
+        padding: 1.8em 2em 1.4em;
         font-family: 'ISOCTEUR', sans-serif;
 
         transition: padding 500ms;
@@ -34,8 +35,8 @@
         background-color: @cloud;
     }
     &.tiny .nav > li a {
-        padding-top: 0.7em;
-        padding-bottom: 0.7em;
+        padding-top: 1em;
+        padding-bottom: 1.2em;
     }
     .links {
         border-bottom: 1px solid @cloud;
@@ -43,6 +44,10 @@
 
     .pageHeader {
         background-color: @metal;
+        height: 5em;
+    }
+    .pageHeader .logo {
+        padding: 1em 0;
     }
     &.tiny .pageHeader {
         max-height: 0;
@@ -66,7 +71,7 @@
         display: block;
         visibility: visible;
         opacity: 1;
-
+        margin-top: 0.425em
     }
 }
 
