@@ -9,7 +9,7 @@ export default class extends Component {
         <div className={classnames(className, 'text-center')}>
           <h2>Contact Us</h2>
           <p>We are located in Seattle, WA, USA.</p>
-          <p>email: ulberge@gmail.com</p>
+          <p>email: contact@wingburstcode.com</p>
           <p>phone: (206) 948-3348</p>
         </div>
     );
