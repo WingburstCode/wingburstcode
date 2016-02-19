@@ -13,7 +13,7 @@ export default class extends Component {
           <h2>We Are Wingburst Code</h2>
           <p>Design and development on web projects, large or small. Experts in Shopify and WordPress setup and customization. Features from $100 and websites from $1000.</p>
           <h3>We Know:</h3>
-          <Image width="50%" src={expertImagePath} />
+          <Image width="100%" src={expertImagePath} />
         </div>
     );
   }
