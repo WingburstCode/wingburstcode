@@ -23,12 +23,15 @@ h1, h2, h3, h4 {
 
 h2 {
     font-size: 2.5em;
+    line-height: 2em;
 }
 h3 {
     font-size: 2em;
+    line-height: 2em;
 }
 h4 {
     font-size: 1.5em;
+    line-height: 2em;
 }
 
 p {
@@ -40,9 +43,6 @@ p {
     img.bronze {
         filter: grayscale(1);
         -webkit-filter: grayscale(1);
-    }
-    .row {
-        padding-top: 2em;
     }
     .primary {
         background-image: linear-gradient(to bottom right, @primary-alt1, @primary-alt2);
@@ -64,5 +64,11 @@ p {
     }
     #contact.homeSection > div {
         padding: 0 0 9em;
+    }
+
+    @media (max-width: @screen-small) {
+        .homeSection > div {
+            padding: 1em 0 2em;
+        }
     }
 }

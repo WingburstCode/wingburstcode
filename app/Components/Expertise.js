@@ -10,9 +10,9 @@ export default class extends Component {
   render() {
     return (
         <div className={classnames(className, 'text-center container')}>
-          <div className="row">
+          <div className="">
             <h3>We Know:</h3>
-            <Image width="100%" src={expertImagePath} />
+            <Image width="90%" src={expertImagePath} />
           </div>
         </div>
     );

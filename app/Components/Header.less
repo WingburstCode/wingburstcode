@@ -9,9 +9,10 @@
     left:0;
 
     .links {
-        
-        padding: 0 76px;
+        padding: 0 4.5em;
     }
+
+
     .links ul {
         background: #fff;
         width: 100%;
@@ -90,6 +91,17 @@
         visibility: visible;
         opacity: 1;
         margin-top: 0.425em
+    }
+
+    @media (max-width: @screen-small) {
+        .links {
+            padding: 0;
+        }
+        .links ul li.contact a span {
+            border-right: 0;
+            border-left: 0;
+            margin-left: -10px;
+        }
     }
 }
 
