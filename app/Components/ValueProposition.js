@@ -10,8 +10,9 @@ export default class extends Component {
           <div className="primary">
             <div className="container text-center">
                 <h2>Design and development on web projects.</h2>
-                <div className="">
-                  <h4 className="col-md-offset-2 col-md-8">Experts in Shopify and WordPress setup and customization.  Features from $100 and websites from $1000.</h4>
+                <div className="col-md-offset-2 col-md-8">
+                  <h4 className="">Experts in Shopify and WordPress setup and customization.</h4>
+                  <h4>Small features to large websites.</h4>
                 </div>
             </div>
           </div>
