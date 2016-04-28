@@ -2,14 +2,29 @@
 
 :local(.className) {
     position: fixed;
-    background: @pale;
+    background: #fff;
     z-index: 3;
     width: 100%;
     top: 0;
     left:0;
 
-    .pageHeader {
-        border-bottom: 1px solid @cloud;
+    .links {
+        
+        padding: 0 76px;
+    }
+    .links ul {
+        background: #fff;
+        width: 100%;
+    }
+    .links ul li.contact a span {
+        border-right: 3px solid @secondary;
+        border-left: 3px solid @secondary;
+        display: inline-block;
+        padding: 0 1em;
+    }
+
+    &.tiny .links {
+        background: #fff;
     }
 
     .navbar {
@@ -19,12 +34,6 @@
     ul.nav {
         padding-left: 0;
         padding-right: 0;
-    }
-    @media (min-width: 768px) {
-        ul.nav {
-            padding-left: 4em;
-            padding-right: 4em;
-        }
     }
 
     .nav > li {
@@ -36,21 +45,18 @@
         font-size: 1.725rem;
         font-weight: 400;
         text-transform: uppercase;
-        padding: 1.8em 0 1.4em;
+        padding: 1.3em 0 0.9em;
         font-family: 'ISOCTEUR', sans-serif;
 
         transition: padding 500ms;
     }
     .nav > li > a:hover {
         text-decoration: none;
-        background-color: @cloud;
+        background-color: lighten(@metal, 50%);
     }
     &.tiny .nav > li a {
         padding-top: 1em;
         padding-bottom: 1.2em;
-    }
-    .links {
-        border-bottom: 1px solid @cloud;
     }
 
     .pageHeader {
@@ -62,6 +68,7 @@
     }
     &.tiny .pageHeader {
         max-height: 0;
+        border-bottom: 0;
     }
     &.tiny .pageHeader * {
         visibility: hidden;

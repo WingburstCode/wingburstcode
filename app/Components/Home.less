@@ -14,11 +14,21 @@ body {
     color: @metal;
     font-size: 16px;
     line-height: 1.5em;
-    padding-top: 4em;
+    background-color: @pale;
 }
 
 h1, h2, h3, h4 {
-    font-family: 'ISOCTEUR', sans-serif;
+    font-family: Open Sans, sans-serif;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+h3 {
+    font-size: 2em;
+}
+h4 {
+    font-size: 1.5em;
 }
 
 p {
@@ -26,16 +36,30 @@ p {
 }
 
 :local(.className) {
-    padding-top: 3em;
-    padding-bottom: 8em;
+    padding-top: 1em;
     img.bronze {
-        filter: sepia(60%) saturate(1.5);
-        -webkit-filter: sepia(60%) saturate(1.5);
+        filter: grayscale(1);
+        -webkit-filter: grayscale(1);
     }
     .row {
         padding-top: 2em;
     }
-    .row > div {
-        padding-top: 2em;
+    .primary {
+        background-image: linear-gradient(to bottom right, @primary-alt1, @primary-alt2);
+        color: #fff;
+    }
+    .dark {
+        background: @metal;
+        color: #fff;
+    }
+    .secondary {
+        background: @secondary;
+        color: #fff;
+    }
+    .homeSection > div {
+        padding: 3em 0 6em;
+    }
+    #expertise.homeSection > div {
+        padding: 0 0 3em;
     }
 }

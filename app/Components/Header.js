@@ -20,9 +20,9 @@ export default class Header extends Component {
         <div className="text-center links">
           <Logo className="hidden-xs"/>
           <Nav className="container">
-            <NavItem href="#about" className="col-xs-4">About</NavItem>
-            <NavItem href="#team" className="col-xs-4">Team</NavItem>
-            <NavItem href="#contact" className="col-xs-4">Contact</NavItem>
+            <NavItem href="#about" className="col-xs-4"><span>About</span></NavItem>
+            <NavItem href="#team" className="col-xs-4"><span>Team</span></NavItem>
+            <NavItem href="#contact" className="col-xs-4 contact"><span>Contact</span></NavItem>
           </Nav>
         </div>
       </div>
