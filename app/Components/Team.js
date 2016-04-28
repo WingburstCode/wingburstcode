@@ -14,7 +14,7 @@ export default class extends Component {
           <h3><span>The Wingburst Team</span></h3>
           <div className="team">
             <Col md={6}>
-              <Image width="50%" src={erikImagePath} className="bronze" circle />
+              <Image width="70%" src={erikImagePath} className="bronze" circle />
               <div>
                 <h4>Erik Ulberg</h4>
                 <p>Development and Design</p>
@@ -22,7 +22,7 @@ export default class extends Component {
               </div>
             </Col>
             <Col md={6}>
-              <Image width="50%" src={patrickImagePath} className="bronze" circle />
+              <Image width="70%" src={patrickImagePath} className="bronze" circle />
               <div>
                 <h4>Patrick Williams</h4>
                 <p>Development</p>
