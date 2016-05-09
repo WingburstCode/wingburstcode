@@ -9,7 +9,7 @@ export default class extends Component {
         <div className={classnames(className, '')}>
           <div className="primary">
             <div className="container text-center">
-                <h2>Design and development on web projects.</h2>
+                <h2>Development and design on web projects.</h2>
                 <div className="col-md-offset-2 col-md-8">
                   <h4 className="">Experts in Shopify and WordPress setup and customization.</h4>
                   <h4>Small features to large websites.</h4>
